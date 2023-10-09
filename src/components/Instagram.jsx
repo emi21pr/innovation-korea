@@ -23,7 +23,7 @@ function Instagram() {
   ];
 
   return (
-    <div className="pt-12 pb-16 justify-start gap-14 flex flex-col w-full h-fit flex-wrap relative border-b">
+    <div className="pt-12 pb-16 justify-start lg:gap-14 gap-8 flex flex-col w-full h-fit flex-wrap relative border-b">
       <div className="items-center flex flex-col gap-5">
         <div className="flex items-center gap-2 w-full">
           <div className="line-2"></div>
@@ -41,7 +41,7 @@ function Instagram() {
           </a>
         </p>
       </div>
-      <div className="grid grid-cols-3 grid-rows-2 gap-5 w-full h-fit">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 w-full h-fit">
         {images.map((item,index)=>{
             return(
                 <img src={item.image} alt="Instagram Image" key={index} className="w-full" />

@@ -31,9 +31,9 @@ function Products() {
   return (
     <div
       id="products"
-      className="pt-12 pb-16 justify-start gap-14 flex flex-col w-full h-fit flex-wrap relative"
+      className="pt-12 pb-16 justify-start gap-10 md:gap-14 flex flex-col w-full h-fit flex-wrap relative"
     >
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between md:items-center md:flex-row flex-col">
         <div className="flex items-center gap-2">
           <div className="line"></div>
           <h1 className="text-xl font-light font-['Petrona']">Productos</h1>
@@ -42,7 +42,7 @@ function Products() {
           Ver todos los productos
         </a>
       </div>
-      <div className="grid grid-cols-4 gap-4 w-full">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 w-full">
         {products.map((item, index) => {
           return (
             <div key={index}>

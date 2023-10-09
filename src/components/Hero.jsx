@@ -6,7 +6,7 @@ function Hero() {
     <div className="py-7 justify-start items-center gap-12 flex w-full h-fit flex-wrap border-b">
       <div className="flex items-center gap-4 w-fit">
         <img src={hero} alt="Hero Image" />
-        <img src={cosmetics} alt="Cosmetics Title" />
+        <img src={cosmetics} alt="Cosmetics Title" className="hidden lg:block" />
       </div>
       <div className="flex flex-col w-full flex-1 gap-12">
         <div className="flex flex-col gap-5">
@@ -16,7 +16,7 @@ function Hero() {
               Productos de Maquillaje
             </h1>
           </div>
-          <p className="text-4xl font-light uppercase leading-[150%] w-fit">
+          <p className="text-2xl  lg:text-4xl font-light uppercase leading-[150%] w-fit">
             UNA <span className="bg-[#FFCBEA] text-white px-1">PALETA</span> DE
             POSIBILIDADES, ILUMINA TU MENTE CON NUESTROS PRODUCTOS
           </p>

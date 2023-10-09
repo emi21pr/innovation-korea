@@ -13,8 +13,8 @@ function Offers() {
         <div className="line-2"></div>
       </div>
 
-      <div className="grid grid-cols-2 gap-12 w-full h-fit">
-        <div className="flex-col flex gap-10">
+      <div className="grid md:grid-cols-2 lg:gap-12 gap-8 w-full h-fit">
+        <div className="md:flex-col flex-col-reverse flex md:gap-10 gap-4">
           <img
             src={weekly}
             loading="lazy"
@@ -28,7 +28,7 @@ function Offers() {
             </p>
           </div>
         </div>
-        <div className="flex-col flex gap-10">
+        <div className="flex-col flex md:gap-10 gap-4">
           <div className="gap-2.5">
             <p className="font-light">Oferta del Mes</p>
             <p className="text-2xl font-semibold">

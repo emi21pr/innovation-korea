@@ -12,7 +12,7 @@ function ProductsClean() {
         <h1 className="text-xl font-light font-['Petrona']">Productos</h1>
       </div>
 
-      <div className="grid grid-cols-4 gap-12 w-full">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-12 w-full">
         {products3.map((item, index) => {
           return (
             <div key={index}>

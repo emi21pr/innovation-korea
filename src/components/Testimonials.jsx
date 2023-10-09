@@ -13,9 +13,9 @@ function Testimonials() {
         <div className="line-2"></div>
       </div>
 
-      <div className="grid grid-cols-2 gap-12 w-full h-fit">
+      <div className="grid md:grid-cols-2 lg:gap-12 gap-8 w-full h-fit">
         <div className="flex-col flex gap-10 custom-shadow p-10 items-center justify-between">
-          <p className="text-center text-xl font-light leading-[150%]">
+          <p className="text-center  md:text-xl text-lg font-light leading-[150%]">
             “Los productos de FlawlessLook realmente han transformado mi rutina
             de belleza. Desde que empecé a usar sus productos, mi piel se ve más
             radiante y saludable. ¡Estoy enamorada de su gama de colores y
@@ -33,7 +33,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="flex-col flex gap-10 custom-shadow p-10 items-center justify-between">
-          <p className="text-center text-xl font-light leading-[150%]">
+          <p className="text-center md:text-xl text-lg font-light leading-[150%]">
             "Como maquillador profesional, confío en FlawlessLook para obtener
             resultados impecables en mis clientes. Sus productos son de alta
             calidad y fáciles de aplicar, lo que hace que mi trabajo sea más
