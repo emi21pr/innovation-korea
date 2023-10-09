@@ -24,7 +24,7 @@ function CollectionsSkin() {
         </div>
         <div className="bg-[#FFE7F0] p-12 flex flex-col justify-center gap-2.5 relative overflow-hidden">
           <h2 className="text-lg md:text-2xl font-semibold z-10">
-            Limpieza y<br className="md:hidden block"/>Purificación
+            Limpieza y <br className="md:hidden block"/>Purificación
           </h2>
           <a href="/collection-clean-purification" className="w-fit z-10 collection-link">
             Ver Colección
