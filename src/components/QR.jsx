@@ -13,7 +13,7 @@ function QR() {
           <p className="font-light">Escanea el código QR para verlos</p>
         </div>
         <div className="flex flex-1 justify-end">
-          <img src="/images/qr.png" alt="QR" />
+          <img src="/images/qr.png" alt="QR" className=" rounded-md w-44" />
         </div>
       </div>
     </div>
