@@ -9,7 +9,7 @@ function HeroMakeup() {
       <img
         src={facial}
         alt="Collection"
-        className="absolute -right-52 -bottom-20 z-0"
+        className="absolute right-0 bottom-0 z-0 w-[43rem]"
       />
     </div>
   );
