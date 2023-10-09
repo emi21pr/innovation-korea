@@ -34,6 +34,10 @@ function Footer() {
             )
         })}
       </div>
+      <div className="flex gap-4 font-light text-sm">
+        <p>Emilia Parreño</p>{" | "}
+        <p>Karla Ramírez</p>
+      </div>
     </div>
   );
 }
