@@ -38,7 +38,7 @@ function Products() {
           <div className="line"></div>
           <h1 className="text-xl font-light font-['Petrona']">Productos</h1>
         </div>
-        <a className="text-lg font-light font-['Petrona'] nav-link" href="/">
+        <a className="text-lg font-light font-['Petrona'] nav-link" href="/products">
           Ver todos los productos
         </a>
       </div>
