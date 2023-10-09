@@ -27,6 +27,7 @@ function Testimonials() {
             <img
               src={testimonial1}
               alt="Testimonio 1"
+              loading="lazy"
               className="w-20 h-20 rounded-full object-cover"
             />
           </div>
@@ -44,6 +45,7 @@ function Testimonials() {
             <img
               src={testimonial2}
               alt="Testimonio 1"
+              loading="lazy"
               className="w-20 h-20 rounded-full object-cover"
             />
           </div>
