@@ -1,0 +1,87 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  scrollbar-gutter: stable;
+  margin: 0;
+  background-color: #fcfcfc;
+  color: #2c2c2c;
+}
+
+.hero-text {
+  color: #fcfcfc;
+  -webkit-text-stroke: .5px #2c2c2c;
+}
+
+.line {
+  width: 45px;
+  height: 0;
+  border: 1px solid #6868687f;
+  display: inline-block;
+}
+.line-2 {
+  width: 100%;
+  height: 0;
+  border: 1px solid #6868687f;
+  display: inline-block;
+}
+.nav-link {
+  box-shadow: inset 0 0 0 0 #FFCBEA;
+  margin: 0 -.25rem;
+  padding: .5rem .5rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav-link:hover {
+  box-shadow: inset 12rem 0 0 0 #FFCBEA;
+  color: white;
+}
+.footer-link{
+  box-shadow: inset 0 0 0 0 #ffffff;
+  margin: 0 -.25rem;
+  padding: .5rem .5rem;
+  transition: box-shadow .3s ease-in-out;
+}
+.footer-link:hover{
+  box-shadow: inset 12rem 0 0 0 #ffffff;
+}
+
+.collection-link{
+  box-shadow: inset 0 0 0 0 #ffffff;
+  margin: 0 -.25rem;
+  padding: .5rem .5rem;
+  transition: box-shadow .3s ease-in-out;
+}
+.collection-link:hover{
+  box-shadow: inset 120px 0 0 0 #ffffff;
+}
+.button-hero {
+  box-shadow: inset 0 0 0 0 #FFCBEA;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.button-hero:hover {
+  box-shadow: inset 18rem 0 0 0 #FFCBEA;
+  color: white;
+}
+
+.about-left {
+  flex: 2;
+}
+
+.about-right {
+  flex: 1
+}
+
+.custom-shadow{
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bg-img{
+  background-image: url("/images/qrimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
