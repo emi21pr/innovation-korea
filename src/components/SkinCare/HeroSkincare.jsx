@@ -10,7 +10,7 @@ function HeroSkincare() {
         <img
           src={skin2}
           alt="Collection"
-          className="absolute xl:right-0 lg:-right-28 md:-right-48 -bottom-60 md:-bottom-96 z-0"
+          className="absolute lg:right-0 md:-right-12 -bottom-48  z-0 md:w-[30rem]"
         />
       </div>
     )
