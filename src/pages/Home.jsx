@@ -6,6 +6,7 @@ import Actor from "../components/Actor";
 import Discurso from "../components/Discurso";
 import Repertorios from "../components/Repertorios";
 import Recursos from "../components/Recursos";
+import PropuestaHome from "../components/PropuestaHome";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Discurso/>
       <Repertorios/>
       <Recursos/>
+      <PropuestaHome/>
       <Footer />
     </div>
   );

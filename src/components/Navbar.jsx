@@ -27,13 +27,13 @@ function Navbar() {
         </a>
         <a
           className="text-center text-md hover:-translate-y-1 transition p-2"
-          href="#testimonials"
+          href="#recursos"
         >
           Recursos
         </a>
         <a
-          className="font-semibold text-center text-md hover:bg-[#494949] transition p-2 text-white bg-[#202020]"
-          href="#testimonials"
+          className="font-semibold text-center text-md hover:bg-[#494949] transition px-4 py-2 text-white bg-[#202020]"
+          href="/propuesta"
         >
           Propuesta
         </a>

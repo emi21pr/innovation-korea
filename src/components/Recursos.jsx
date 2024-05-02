@@ -3,7 +3,7 @@ import resources from "/images/resources.jpg";
 
 function Recursos() {
   return (
-    <div className="pb-12 pt-6 w-full h-fit border-b" id="discurso">
+    <div className="pb-12 pt-6 w-full h-fit border-b" id="recursos">
       <div className="flex flex-col gap-6">
         <h2 className="font-bold text-3xl">Recursos</h2>
         <div className="flex flex-row-reverse gap-6 w-full h-full">
