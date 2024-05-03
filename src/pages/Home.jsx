@@ -10,7 +10,7 @@ import PropuestaHome from "../components/PropuestaHome";
 
 function Home() {
   return (
-    <div className="py-4 lg:px-28 px-8 gap-5 flex flex-col">
+    <div className="py-4 lg:px-28 px-4 gap-5 flex flex-col">
       <Navbar />
       <Hero />
       <Actor/>

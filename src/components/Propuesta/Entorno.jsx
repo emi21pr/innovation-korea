@@ -6,8 +6,8 @@ function Entorno() {
     <div className="pb-12 pt-6 w-full h-fit border-b" id="entorno">
       <div className="flex flex-col gap-6">
         <h2 className="font-bold text-3xl">Entorno</h2>
-        <div className="flex gap-6 w-full h-[42rem] items-center">
-          <div className="flex custom-shadow flex-col p-10 gap-4 h-full">
+        <div className="flex gap-6 w-full lg:h-[42rem] h-fit items-center flex-wrap">
+          <div className="flex custom-shadow rounded-md flex-col p-4 lg:p-10 gap-4 h-full">
             <div className="flex justify-between">
               <div></div>
               <h3 className=" font-semibold text-lg ">India</h3>
@@ -30,7 +30,7 @@ function Entorno() {
               y el 50% sabe nada o muy poco sobre el periodo.
             </p>
           </div>
-          <div className="flex custom-shadow flex-col rounded-md p-10 gap-4 h-full">
+          <div className="flex custom-shadow flex-col rounded-md p-4 lg:p-10 gap-4 h-full">
             <div className="flex justify-between">
               <div></div>
               <h3 className=" font-semibold text-lg ">Kenia y Etiopía</h3>
@@ -53,7 +53,7 @@ function Entorno() {
               la escuela debido a la menstruación .
             </p>
           </div>
-          <div className="flex custom-shadow flex-col rounded-md p-10 gap-4 h-full">
+          <div className="flex custom-shadow flex-col rounded-md p-4 lg:p-10 gap-4 h-full">
             <div className="flex justify-between">
               <div></div>
               <h3 className=" font-semibold text-lg ">Perú</h3>

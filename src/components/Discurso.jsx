@@ -6,8 +6,8 @@ function Discurso() {
     <div className="pb-12 pt-6 w-full h-fit border-b" id="discurso">
       <div className="flex flex-col gap-6">
         <h2 className="font-bold text-3xl">Discurso</h2>
-        <div className="flex gap-6 w-full h-fit flex-wrap items-center">
-          <div className="flex-1 flex custom-shadow flex-col rounded-md p-16 gap-2">
+        <div className="flex gap-6 w-full h-fit flex-col lg:flex-row items-center">
+          <div className="flex-1 flex custom-shadow flex-col rounded-md p-4 lg:p-16 gap-2">
             <h3 className=" font-semibold text-lg ">Problema</h3>
             <p className=" text-justify text-[#565656] font-light">
               Se movilizan para visibilizar y combatir dos grandes problemas
@@ -29,7 +29,7 @@ function Discurso() {
             </p>
           </div>
           <div><img src={swap} alt="Swap" className="w-8" /></div>
-          <div className="flex-1 flex custom-shadow flex-col rounded-md p-16 gap-2">
+          <div className="flex-1 flex custom-shadow flex-col rounded-md p-4 lg:p-16 gap-2">
             <h3 className=" font-semibold text-lg ">Reivindicación</h3>
             <p className=" text-justify text-[#565656] font-light">
               Su reivindicación principal es eliminar por completo el estigma

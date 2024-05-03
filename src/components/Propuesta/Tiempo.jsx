@@ -9,7 +9,7 @@ function Tiempo() {
         <h2 className="font-bold text-3xl">
           Tiempo de Implementación y Costo Estimado
         </h2>
-        <div className="flex gap-16 w-full h-fit items-center flex-wrap">
+        <div className="flex gap-16 w-full h-fit items-center lg:flex-row flex-col">
           <div className="flex-1 flex">
             <p className="text-justify text-[#565656] font-light">
               Para estimar el presupuesto y el tiempo requeridos para la

@@ -31,10 +31,10 @@ function Actor() {
     },
   };
   return (
-    <div className="pb-12 pt-6 w-full h-fit border-b" id="actor">
-      <div className="flex flex-col gap-6">
+    <div className="pb-12 pt-6 w-full border-b" id="actor">
+      <div className="flex flex-col h-fit gap-6">
         <h2 className="font-bold text-3xl">Actor Colectivo</h2>
-        <div className="flex gap-16 w-full h-[21rem] flex-wrap">
+        <div className="flex gap-16 w-full h-fit flex-col lg:flex-row">
           <div className=" flex-1">
             <p className=" font-light text-justify text-[#565656]">
               El actor colectivo principal son las organizaciones y movimientos
@@ -54,7 +54,7 @@ function Actor() {
             </p>
           </div>
           <div className="flex-1 h-full">
-            <img src={protest2} alt="Protest" className="h-full w-full object-cover rounded-md" />
+            <img src={protest2} alt="Protest" className="h-[21rem] w-full object-cover rounded-md hidden lg:block" />
           </div>
         </div>
         <div className="h-[27rem]">

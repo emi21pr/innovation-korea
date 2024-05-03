@@ -10,7 +10,7 @@ function ActoresP() {
           Actores del Ecosistema de Innovación
         </h2>
         <div className="flex gap-6 w-full h-fit items-center flex-col">
-          <div className="flex custom-shadow flex-col p-10 gap-4 w-full h-80 empresa rounded-md">
+          <div className="flex custom-shadow flex-col p-6 lg:p-10 gap-4 w-full h-fit lg:h-80 empresa rounded-md">
             <h3 className=" font-semibold text-lg text-[#fcfcfc] ">
               Empresas Privadas socialmente responsables
             </h3>
@@ -25,7 +25,7 @@ function ActoresP() {
               proyecto.
             </p>
           </div>
-          <div className="flex custom-shadow flex-col p-10 gap-4 w-full h-80 organizacion rounded-md">
+          <div className="flex custom-shadow flex-col p-6 lg:p-10 gap-4 w-full h-fit lg:h-80 organizacion rounded-md">
             <h3 className=" font-semibold text-lg text-[#fcfcfc]">
               Organizaciones de la Sociedad Civil
             </h3>
@@ -41,7 +41,7 @@ function ActoresP() {
               para promover sus causas y ampliar su impacto.
             </p>
           </div>
-          <div className="flex custom-shadow flex-col p-10 gap-4  w-full h-80 gobierno rounded-md">
+          <div className="flex custom-shadow flex-col p-6 lg:p-10 gap-4  w-full h-fit lg:h-80 gobierno rounded-md">
             <h3 className=" font-semibold text-lg text-[#fcfcfc]">Gobiernos</h3>
 
             <p className=" text-justify text-[#e3e3e3] font-light">

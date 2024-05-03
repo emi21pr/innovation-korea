@@ -8,7 +8,7 @@ function Hero() {
     <div className="pb-6 w-full h-fit border-b">
       <div className="flex flex-col items-center gap-6">
         <div className=" gap-4 flex flex-col">
-          <h1 className="font-semibold text-6xl leading-snug text-justify">
+          <h1 className="font-semibold lg:text-6xl text-3xl leading-snug text-center lg:text-justify">
             Poner fin a la vergüenza y a la pobreza menstrual en Asia
           </h1>
           <div className="w-full flex justify-between border-b border-t p-2 ">
@@ -34,7 +34,7 @@ function Hero() {
             />
           </div>
         </div>
-        <div className="flex justify-between items-center w-full">
+        <div className="flex justify-between items-center w-full flex-wrap gap-4">
             <div className="flex gap-4 font-medium">
               <p className="text-md text-[#ffffffec] px-4 py-2 bg-[#202020] w-fit">
                 Innovación
@@ -42,10 +42,10 @@ function Hero() {
               <p className="text-md text-[#ffffffec] px-4 py-2 bg-[#202020] w-fit">
                 Activismo
               </p>
-              <p className="text-md text-[#ffffffec] px-4 py-2 bg-[#202020] w-fit">
+              <p className="text-md text-[#ffffffec] px-4 py-2 bg-[#202020] w-fit hidden md:block">
                 Organizaciones
               </p>
-              <p className="text-md text-[#ffffffec] px-4 py-2 bg-[#202020] w-fit">
+              <p className="text-md text-[#ffffffec] px-4 py-2 bg-[#202020] w-fit hidden lg:block">
                 Movimiento
               </p>
             </div>

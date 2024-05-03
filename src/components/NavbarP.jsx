@@ -2,7 +2,7 @@ import React from "react";
 import logo from "/images/logo.svg";
 function NavbarP() {
   return (
-    <nav className="py-4 justify-between items-center gap-10 flex w-full border-b">
+    <nav className="py-4 justify-between items-center gap-10 flex w-full border-b lg:flex-row flex-col">
       <div className="flex gap-2 justify-center">
         <img src={logo} alt="Logo" className="w-6" /> <p className="font-bold text-3xl">PROPUESTA</p>
       </div>

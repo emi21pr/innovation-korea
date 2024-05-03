@@ -9,13 +9,19 @@ import Descripcion from "../components/Propuesta/Descripcion";
 
 function Propuesta() {
   return (
-    <div className="py-4 lg:px-28 px-8 gap-5 flex flex-col">
+    <div className="py-4 lg:px-28 px-4 gap-5 flex flex-col">
       <NavbarP />
-      <HeroP/>
-      <Entorno/>
-      <Tiempo/>
-      <ActoresP/>
-      <Descripcion/>
+      <HeroP />
+      <Entorno />
+      <Tiempo />
+      <ActoresP />
+      <Descripcion />
+      <a
+        className="font-semibold text-center text-md hover:bg-[#494949] transition px-4 py-2 text-white bg-[#202020] md:hidden block"
+        href="/"
+      >
+        Regresar
+      </a>
       <Footer />
     </div>
   );

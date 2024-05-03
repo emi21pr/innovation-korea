@@ -6,9 +6,9 @@ function Repertorios() {
     <div className="pb-12 pt-6 w-full h-fit border-b" id="repertorios">
       <div className="flex flex-col gap-6">
         <h2 className="font-bold text-3xl">Repertorios</h2>
-        <div className="flex gap-16 w-full h-fit flex-wrap">
+        <div className="flex gap-16 w-full h-fit flex-col lg:flex-row">
           <div className="flex flex-col gap-4 w-full flex-1 h-fit">
-            <div className="flex custom-shadow flex-col rounded-md p-16 gap-2">
+            <div className="flex custom-shadow flex-col rounded-md p-4 lg:p-16 gap-2">
               <h3 className=" font-semibold text-lg ">
                 Canales de participación institucionales
               </h3>
@@ -19,7 +19,7 @@ function Repertorios() {
                 públicas.
               </p>
             </div>
-            <div className="flex custom-shadow flex-col rounded-md p-16 gap-2">
+            <div className="flex custom-shadow flex-col rounded-md p-4 lg:p-16 gap-2">
               <h3 className=" font-semibold text-lg ">Lobbie</h3>
               <p className=" text-justify text-[#565656] font-light">
                 Han realizado reuniones directas ante legisladoras como Sayaka
@@ -28,7 +28,7 @@ function Repertorios() {
                 de impuestos.
               </p>
             </div>
-            <div className="flex custom-shadow flex-col rounded-md p-16 gap-2">
+            <div className="flex custom-shadow flex-col rounded-md p-4 lg:p-16 gap-2">
               <h3 className=" font-semibold text-lg ">
                 {" "}
                 Protestas y campañas en arenas digitales alternativas
@@ -40,9 +40,9 @@ function Repertorios() {
               </p>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center">
             <iframe
-              className="w-full h-full rounded-md"
+              className="lg:w-full lg:h-full rounded-md w-80 h-80"
               src="https://youtube.com/embed/CpfgmiDJKbs?si=HXdg0XYFSTBCpjiT"
               title="YouTube video player"
               frameborder="0"
