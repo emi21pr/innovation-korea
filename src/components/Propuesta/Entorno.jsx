@@ -6,7 +6,7 @@ function Entorno() {
     <div className="pb-12 pt-6 w-full h-fit border-b" id="entorno">
       <div className="flex flex-col gap-6">
         <h2 className="font-bold text-3xl">Entorno</h2>
-        <div className="flex gap-6 w-full lg:h-[42rem] h-fit items-center flex-wrap">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 w-full items-center">
           <div className="flex custom-shadow rounded-md flex-col p-4 lg:p-10 gap-4 h-full">
             <div className="flex justify-between">
               <div></div>

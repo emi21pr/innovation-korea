@@ -3,6 +3,7 @@ import hero from "/images/hero.jpg";
 import pdf from "/images/icons/pdf.svg";
 import pencil from "/images/icons/pencil.svg";
 import date from "/images/icons/date.svg";
+
 function Hero() {
   return (
     <div className="pb-6 w-full h-fit border-b">
@@ -50,10 +51,10 @@ function Hero() {
               </p>
             </div>
             <div>
-              <button className="font-semibold text-md text-[#ffffffec] px-4 py-2 bg-[#b43331] flex gap-2">
+              <a href="/documents/PDF_Flujo.pdf" className="font-semibold text-md text-[#ffffffec] px-4 py-2 bg-[#b43331] flex gap-2" target="_blank">
                 <img src={pdf} alt="Pdf" className="w-6" />
                 Descargar PDF
-              </button>
+              </a>
             </div>
           </div>
       </div>

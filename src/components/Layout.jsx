@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
 import Home from "../pages/Home";
-import Footer from "./Footer";
 import Propuesta from "../pages/Propuesta";
 
 function Layout() {
