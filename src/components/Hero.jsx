@@ -51,7 +51,7 @@ function Hero() {
               </p>
             </div>
             <div>
-              <a href="/documents/PDF_Flujo.pdf" className="font-semibold text-md text-[#ffffffec] px-4 py-2 bg-[#b43331] flex gap-2" target="_blank">
+              <a href="/documents/PDF_Flujo.pdf" className="font-semibold text-md text-[#ffffffec] px-4 py-2 bg-[#b43331] hover:bg-[#d54846] transition flex gap-2" target="_blank">
                 <img src={pdf} alt="Pdf" className="w-6" />
                 Descargar PDF
               </a>
