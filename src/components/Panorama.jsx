@@ -8,7 +8,7 @@ function Panorama() {
       id="panorama"
     >
       <div className="flex flex-col gap-4 flex-1">
-        <h1 className="bebas-text text-7xl">Panorama general GII</h1>
+        <h1 className="bebas-text text-6xl">Panorama general GII</h1>
         <div className="flex gap-2">
           <span className=" bg-[#260b0b] text-[#ba3939] px-4 py-2 rounded-full text-xs">
             Medición de la Innovación

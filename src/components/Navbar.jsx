@@ -37,7 +37,7 @@ function Navbar(props) {
           </a>
           <a
             className="text-center text-sm p-2"
-            href="#blog"
+            href="/blog"
           >
             Blog
           </a>

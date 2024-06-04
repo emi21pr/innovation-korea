@@ -1,42 +1,43 @@
 import React from "react";
-import logo from "/images/logo.svg";
-function NavbarP() {
+import logo from "/images/vite.svg";
+import qr from "/images/icons/qr.svg";
+function NavbarP(props) {
   return (
-    <nav className="py-4 justify-between items-center gap-10 flex w-full border-b lg:flex-row flex-col">
-      <div className="flex gap-2 justify-center">
-        <img src={logo} alt="Logo" className="w-6" /> <p className="font-bold text-3xl">PROPUESTA</p>
-      </div>
-      <div className="lg:gap-10 gap-4 md:flex hidden">
-        <a
-          className="text-center text-base hover:-translate-y-1 transition p-2"
-          href="#entorno"
-        >
-          Entorno
-        </a>
-        <a
-          className="text-center text-base hover:-translate-y-1 transition p-2"
-          href="#tiempo"
-        >
-          Tiempo y Costo
-        </a>
-        <a
-          className="text-center text-base hover:-translate-y-1 transition p-2"
-          href="#actores"
-        >
-          Actores
-        </a>
-        <a
-          className="text-center text-base hover:-translate-y-1 transition p-2"
-          href="#descripcion"
-        >
-          Descripción
-        </a>
-        <a
-          className="font-semibold text-center text-base hover:bg-[#494949] transition px-4 py-2 text-white bg-[#202020]"
-          href="/"
-        >
-          Regresar
-        </a>
+    <nav className="fixed bottom-6 w-fit z-10 ">
+      <div className="h-12 flex bg-[#0000004a] items-center gap-10 backdrop-blur rounded-md shadow-lg">
+        <div className="w-[48px]">
+          <a href="/">
+            <img src={logo} alt="Logo" className="w-12" />
+          </a>
+        </div>
+        <div className="gap-4 md:flex hidden">
+          <a
+            className="text-center text-sm p-2"
+            href="#papel"
+          >
+            Papel
+          </a>
+          <a
+            className="text-center text-sm p-2"
+            href="#tipos"
+          >
+            Tipos
+          </a>
+          <a
+            className="text-center text-sm p-2"
+            href="#impacto"
+          >
+            Impacto
+          </a>
+        </div>
+        <div className="bg-[#00000033]  h-full flex items-center px-4 rounded-r-md border-l cursor-pointer">
+          <a
+            className="text-center text-sm flex items-center gap-2"
+            href="/"
+          >
+            Regresar
+          </a>
+        </div>
       </div>
     </nav>
   );
