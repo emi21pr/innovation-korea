@@ -30,8 +30,8 @@ function Hero() {
             </div>
           </div>
         </div>
-        <h1 className="absolute uppercase text-center hero-text lg:m-96 mx-10 lg:text-[10rem] text-9xl z-10 leading-none">
-          Corea del Sur
+        <h1 className="absolute uppercase text-center hero-text lg:text-[10rem] text-9xl z-10 leading-none">
+          Corea <br/> del Sur
         </h1>
         <div className="lg:flex-1 w-full lg:h-screen h-96">
           <img
