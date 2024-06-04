@@ -3,20 +3,22 @@ import covid from "/images/covid.avif"
 
 function Crisis() {
   return (
-    <div className="py-24 pr-12 w-full h-fit flex pb-24 gap-14 items-center border-b" id="crisis">
-      <div className="flex-1 flex justify-start">
-        <img
-          src={covid}
-          alt="Covid"
-          className="w-full object-cover h-[38rem]"
-        />
+    <div className="py-24 md:pr-8 lg:pr-12 px-8 md:px-0 w-full h-fit flex md:flex-row flex-col-reverse pb-24 md:gap-14 gap-8 items-center border-b" id="crisis">
+      <div className="flex-1 flex justify-end w-full">
+        <div className="w-full md:h-[38rem] h-80">
+          <img
+            src={covid}
+            alt="Covid"
+            className="w-full h-full object-cover "
+          />
+        </div>
       </div>
       <div className="flex-1 flex flex-col gap-4">
         <div className="flex flex-col gap-2">
-          <h1 className="bebas-text text-6xl">Crisis Sanitaria</h1>
-          <h2 className="bebas-text text-3xl"> Impacto COVID-19</h2>
+          <h1 className="bebas-text lg:text-6xl text-4xl">Crisis Sanitaria</h1>
+          <h2 className="bebas-text lg:text-3xl text-xl"> Impacto COVID-19</h2>
         </div>
-        <p className="font-light text-sm text-justify">
+        <p className="font-light lg:text-sm text-base text-justify">
           Los desafíos sin precedentes de la pandemia de COVID-19 no lograron
           menoscabar de inmediato la capacidad innovadora de Corea del Sur. En
           los años 2020 y 2021, este país mantuvo un desempeño destacado gracias

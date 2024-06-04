@@ -3,12 +3,12 @@ import React from "react";
 function Papel() {
   return (
     <div
-      className="py-24 px-12 w-full h-fit flex flex-col pb-24 gap-14 border-b"
+      className="py-24 md:px-12 px-8 w-full h-fit flex flex-col pb-24 gap-14 border-b"
       id="papel"
     >
       <div className="flex flex-col gap-4">
-        <h1 className="bebas-text text-6xl">Papel en Corea</h1>
-        <p className="font-light text-sm text-justify">
+        <h1 className="bebas-text lg:text-6xl text-4xl">Papel en Corea</h1>
+        <p className="font-light lg:text-sm text-base text-justify">
           Samsung Electronics ha sido un pilar esencial de la economía
           surcoreana, debido a que impulsa el avance tecnológico con su
           especialización en dispositivos digitales, semiconductores, memorias e
@@ -22,8 +22,8 @@ function Papel() {
         </p>
       </div>
       <div className="flex flex-col gap-4" id="tipos">
-        <h1 className="bebas-text text-6xl">Tipos de Innovación</h1>
-        <p className="font-light text-sm text-justify">
+        <h1 className="bebas-text lg:text-6xl text-4xl">Tipos de Innovación</h1>
+        <p className="font-light lg:text-sm text-base text-justify">
           <span className="font-bold">Innovación de Producto:</span> Samsung ha
           implementado diversas innovaciones de producto como el smartphone
           Galaxy Fold en 2019, el primer teléfono móvil con pantalla plegable
@@ -57,8 +57,8 @@ function Papel() {
         </p>
       </div>
       <div className="flex flex-col gap-4" id="impacto">
-        <h1 className="bebas-text text-6xl">Impacto GII</h1>
-        <p className="font-light text-sm text-justify">
+        <h1 className="bebas-text lg:text-6xl text-4xl">Impacto GII</h1>
+        <p className="font-light lg:text-sm text-base text-justify">
           Las innovaciones de producto, proceso y organizativas implementadas
           por Samsung han sido determinantes en el ascenso de Corea del Sur al
           top cinco del Índice Mundial de Innovación en 2021, destacando en los

@@ -8,23 +8,23 @@ import gallery6 from "/images/gallery6.avif";
 
 function Gallery() {
   return (
-    <div className="grid grid-cols-3 grid-rows-2">
-      <div className="w-full h-96">
+    <div className="grid lg:grid-cols-3 lg:grid-rows-2 grid-cols-2 grid-rows-3">
+      <div className="w-full lg:h-96 h-60">
         <img src={gallery1} alt="Galeria" className="w-full h-full object-cover grayscale-60 hover:grayscale-0 transition-all" />
       </div>
-      <div className="w-full h-96">
+      <div className="w-full lg:h-96 h-60">
         <img src={gallery2} alt="Galeria" className="w-full h-full object-cover grayscale-60 hover:grayscale-0 transition-all" />
       </div>
-      <div className="w-full h-96">
+      <div className="w-full lg:h-96 h-60">
         <img src={gallery3} alt="Galeria" className="w-full h-full object-cover grayscale-60 hover:grayscale-0 transition-all" />
       </div>
-      <div className="w-full h-96">
+      <div className="w-full lg:h-96 h-60">
         <img src={gallery4} alt="Galeria" className="w-full h-full object-cover grayscale-60 hover:grayscale-0 transition-all" />
       </div>
-      <div className="w-full h-96">
+      <div className="w-full lg:h-96 h-60">
         <img src={gallery5} alt="Galeria" className="w-full h-full object-cover grayscale-60 hover:grayscale-0 transition-all" />
       </div>
-      <div className="w-full h-96">
+      <div className="w-full lg:h-96 h-60">
         <img src={gallery6} alt="Galeria" className="w-full h-full object-cover grayscale-60 hover:grayscale-0 transition-all" />
       </div>
     </div>

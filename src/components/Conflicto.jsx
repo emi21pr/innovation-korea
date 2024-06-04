@@ -4,16 +4,16 @@ import war from "/images/war.avif";
 function Conflicto() {
   return (
     <div
-      className="py-24 pl-12 w-full h-fit flex pb-24 gap-14 items-center border-b"
+      className="py-24 md:pl-8 lg:pl-12 px-8 md:px-0 w-full h-fit flex md:flex-row flex-col pb-24 lg:gap-14 gap-8 items-center border-b"
       id="conflicto"
     >
       
       <div className="flex-1 flex flex-col gap-4">
         <div className="flex flex-col gap-2">
-          <h1 className="bebas-text text-6xl">Conflicto Armado</h1>
-          <h2 className="bebas-text text-3xl">Impacto Guerra Ucrania-Rusia</h2>
+          <h1 className="bebas-text lg:text-6xl text-4xl">Conflicto Armado</h1>
+          <h2 className="bebas-text lg:text-3xl text-xl">Impacto Guerra Ucrania-Rusia</h2>
         </div>
-        <p className="font-light text-sm text-justify">
+        <p className="font-light lg:text-sm text-base text-justify">
           La guerra en Ucrania tuvo un impacto económico significativo en Corea
           del Sur, que se extendió de 2022 a 2023. En 2022, la dependencia de
           importaciones de energía y materias primas de Rusia, junto con la
@@ -31,12 +31,14 @@ function Conflicto() {
         </p>
         
       </div>
-      <div className="flex-1 flex justify-end">
-        <img
-          src={war}
-          alt="Covid"
-          className="w-full object-cover h-[38rem]"
-        />
+      <div className="flex-1 flex justify-end w-full">
+        <div className="w-full md:h-[38rem] h-80">
+          <img
+            src={war}
+            alt="Guerra"
+            className="w-full h-full object-cover "
+          />
+        </div>
       </div>
     </div>
   );
