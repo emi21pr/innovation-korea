@@ -1,5 +1,5 @@
 import React from "react";
-import samsung from "/images/samsung.jpg"
+import samsung from "/images/samsung.jpg";
 
 function Caso() {
   return (
@@ -7,7 +7,13 @@ function Caso() {
       <h1 className="bebas-text text-6xl">
         Caso: Samsung Electronics "Motor de la innovación"
       </h1>
-      <img src={samsung} alt="Samsung" />
+      <div className="w-full h-[37rem]">
+        <img
+          src={samsung}
+          alt="Samsung"
+          className="object-cover w-full h-full"
+        />
+      </div>
     </div>
   );
 }

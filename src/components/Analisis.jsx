@@ -11,7 +11,7 @@ function Analisis() {
       <h1 className="bebas-text text-6xl">Análisis GII 2019-2023</h1>
       <div className="flex gap-14">
         <div className="flex-1">
-          <div className="flex flex-col gap-5 w-full">
+          <div className="flex flex-col gap-4 w-full">
             {history.map((item, index) => (
               <div
                 key={index}
