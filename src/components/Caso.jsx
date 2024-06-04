@@ -3,7 +3,7 @@ import samsung from "/images/samsung.jpg";
 
 function Caso() {
   return (
-    <div className="py-12 px-12 w-full h-fit flex flex-col pb-24 gap-14 items-center border-b">
+    <div className="py-12 px-12 w-full h-fit flex flex-col pb-24 gap-14 items-center border-b" id="hero2">
       <h1 className="bebas-text text-6xl">
         Caso: Samsung Electronics "Motor de la innovación"
       </h1>
