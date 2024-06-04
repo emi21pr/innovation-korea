@@ -3,7 +3,7 @@ import logo from "/images/vite.svg";
 import qr from "/images/icons/qr.svg";
 function Navbar(props) {
   return (
-    <nav className="fixed bottom-6 w-fit z-10 ">
+    <nav className="fixed bottom-6 w-fit z-50 ">
       <div className="md:h-12 h-16 flex bg-[#0000004a] items-center md:gap-10 backdrop-blur rounded-md shadow-lg">
         <div className="w-[48px] hidden sm:block">
           <a href="#hero">
