@@ -2,9 +2,9 @@ import React from "react";
 import logo from "/images/logo.svg";
 function Footer() {
   return (
-    <div className="w-full h-fit py-12 px-12 items-center justify-center flex flex-col bg-[#202020] gap-5 rounded-md">
+    <div className="w-full h-fit py-8 px-12 items-end flex flex-col">
       <a href="/">
-        <img src={logo} alt="Logo" className="w-16 filter-white" />
+        <img src={logo} alt="Logo" className="w-8" />
       </a>
     </div>
   );

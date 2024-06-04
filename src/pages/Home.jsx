@@ -2,22 +2,24 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import Actor from "../components/Actor";
-import Discurso from "../components/Discurso";
-import Repertorios from "../components/Repertorios";
-import Recursos from "../components/Recursos";
-import PropuestaHome from "../components/PropuestaHome";
+import Participantes from "../components/Participantes";
+import Panorama from "../components/Panorama";
+import Analisis from "../components/Analisis";
+import Gallery from "../components/Gallery";
+import Crisis from "../components/Crisis";
+import Conflicto from "../components/Conflicto";
 
 function Home() {
   return (
-    <div className="py-4 lg:px-28 px-4 gap-5 flex flex-col">
+    <div className="flex flex-col scroll-smooth justify-center items-center">
       <Navbar />
       <Hero />
-      <Actor/>
-      <Discurso/>
-      <Repertorios/>
-      <Recursos/>
-      <PropuestaHome/>
+      <Participantes/>
+      <Panorama/>
+      <Analisis/>
+      <Gallery/>
+      <Crisis/>
+      <Conflicto/>
       <Footer />
     </div>
   );

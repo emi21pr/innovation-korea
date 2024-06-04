@@ -4,7 +4,15 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      grayscale: {
+        50: '50%',
+        60: '60%',
+      },
+      blur:{
+        xs: '1px',
+      }
+    }
   },
   plugins: [],
 }

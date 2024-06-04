@@ -1,42 +1,55 @@
 import React from "react";
-import logo from "/images/logo.svg";
+import logo from "/images/vite.svg";
+import qr from "/images/icons/qr.svg";
 function Navbar() {
   return (
-    <nav className="py-4 justify-between items-center gap-10 flex w-full border-b lg:flex-row flex-col">
-      <a href="/">
-        <img src={logo} alt="Logo" className="w-12" />
-      </a>
-      <div className="lg:gap-10 gap-4 md:flex hidden">
-        <a
-          className="text-center text-md hover:-translate-y-1 transition p-2"
-          href="#actor"
-        >
-          Actor Colectivo
-        </a>
-        <a
-          className="text-center text-md hover:-translate-y-1 transition p-2"
-          href="#discurso"
-        >
-          Discurso
-        </a>
-        <a
-          className="text-center text-md hover:-translate-y-1 transition p-2"
-          href="#repertorios"
-        >
-          Repertorios
-        </a>
-        <a
-          className="text-center text-md hover:-translate-y-1 transition p-2"
-          href="#recursos"
-        >
-          Recursos
-        </a>
-        <a
-          className="font-semibold text-center text-md hover:bg-[#494949] transition px-4 py-2 text-white bg-[#202020]"
-          href="/propuesta"
-        >
-          Propuesta
-        </a>
+    <nav className="fixed bottom-6 w-fit z-10 ">
+      <div className="h-12 flex bg-[#0000004a] items-center gap-10 backdrop-blur rounded-md shadow-lg">
+        <div className="w-[48px]">
+          <a href="#hero">
+            <img src={logo} alt="Logo" className="w-12" />
+          </a>
+        </div>
+        <div className="gap-4 md:flex hidden">
+          <a
+            className="text-center text-sm p-2"
+            href="#panorama"
+          >
+            Panorama
+          </a>
+          <a
+            className="text-center text-sm p-2"
+            href="#analisis"
+          >
+            Análisis
+          </a>
+          <a
+            className="text-center text-sm p-2"
+            href="#crisis"
+          >
+            Crisis
+          </a>
+          <a
+            className="text-center text-sm p-2"
+            href="#conflicto"
+          >
+            Conflicto
+          </a>
+          <a
+            className="text-center text-sm p-2"
+            href="#blog"
+          >
+            Blog
+          </a>
+        </div>
+        <div className="bg-[#00000033]  h-full flex items-center px-4 rounded-r-md border-l">
+          <a
+            className="text-center text-sm flex items-center gap-2"
+            href="/blog"
+          ><img src={qr} alt="QR" className=" filter-white w-8"/>
+            Escanear QR
+          </a>
+        </div>
       </div>
     </nav>
   );
