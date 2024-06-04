@@ -3,12 +3,6 @@ import { history } from "../assets/data/HistoryData";
 
 function Analisis() {
   const [current, setCurrent] = useState(0);
-  const next = () => {
-    setCurrent(current + 1);
-  };
-  const prev = () => {
-    setCurrent(current - 1);
-  };
   return (
     <div
       className="py-24 px-12 w-full h-fit flex flex-col pb-24 gap-8"
