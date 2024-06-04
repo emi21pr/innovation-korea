@@ -15,7 +15,7 @@ function Hero() {
           <div className="px-12 py-20 flex flex-col gap-6 w-[17rem]">
             <div>
               <p className="bebas-text text-2xl">
-                &emsp;&emsp;Innovación en la Sociedad
+                Innovación en la Sociedad
               </p>
               <p className="text-xs font-light">
                 Corea del Sur: Un gigante innovador emergiendo en el panorama

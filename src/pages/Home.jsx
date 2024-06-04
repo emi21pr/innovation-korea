@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
@@ -8,11 +8,13 @@ import Analisis from "../components/Analisis";
 import Gallery from "../components/Gallery";
 import Crisis from "../components/Crisis";
 import Conflicto from "../components/Conflicto";
+import QR from "../components/QR";
 
 function Home() {
+  const [active, setActive] = useState(false);
   return (
     <div className="flex flex-col scroll-smooth justify-center items-center">
-      <Navbar />
+      <Navbar setActive={setActive}/>
       <Hero />
       <Participantes/>
       <Panorama/>
@@ -20,6 +22,7 @@ function Home() {
       <Gallery/>
       <Crisis/>
       <Conflicto/>
+      <QR active={active} setActive={setActive}/>
       <Footer />
     </div>
   );

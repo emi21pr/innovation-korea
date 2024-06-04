@@ -41,7 +41,7 @@ function Analisis() {
         <div className="flex-1">
           <div className="flex flex-col gap-2">
             <div className=" text-xl py-2 uppercase bebas-text">{history[current].title}</div>
-            <p className="whitespace-pre-line font-light text-sm">{history[current].content}</p>
+            <p className="whitespace-pre-line font-light text-sm text-justify">{history[current].content}</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "/images/vite.svg";
 import qr from "/images/icons/qr.svg";
-function Navbar() {
+function Navbar(props) {
   return (
     <nav className="fixed bottom-6 w-fit z-10 ">
       <div className="h-12 flex bg-[#0000004a] items-center gap-10 backdrop-blur rounded-md shadow-lg">
@@ -42,10 +42,10 @@ function Navbar() {
             Blog
           </a>
         </div>
-        <div className="bg-[#00000033]  h-full flex items-center px-4 rounded-r-md border-l">
+        <div className="bg-[#00000033]  h-full flex items-center px-4 rounded-r-md border-l cursor-pointer">
           <a
             className="text-center text-sm flex items-center gap-2"
-            href="/blog"
+            onClick={()=>props.setActive(true)}
           ><img src={qr} alt="QR" className=" filter-white w-8"/>
             Escanear QR
           </a>
