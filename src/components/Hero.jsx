@@ -24,7 +24,7 @@ function Hero() {
             </div>
             
             <div className="gap-5 flex bebas-text w-full items-center justify-center lg:justify-start">
-              <a href="/" className="underline text-3xl custom-a">
+              <a href="/documents/Corea.pdf" className="underline text-3xl custom-a" target="_blank">
                 DESCARGAR PDF
               </a>
             </div>
